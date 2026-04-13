@@ -1,0 +1,259 @@
+:root {
+  --bg-top: #12100d;
+  --bg-bottom: #242018;
+  --surface: rgba(30, 26, 20, 0.86);
+  --surface-soft: rgba(255, 255, 255, 0.04);
+  --text-primary: #f8f3e9;
+  --text-secondary: #dacba7;
+  --accent: #d1973b;
+  --accent-strong: #f0b253;
+  --ok: #89d464;
+  --error: #f08b75;
+  --radius: 20px;
+  --shadow: 0 16px 34px rgba(0, 0, 0, 0.35);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Bahnschrift", "Trebuchet MS", "Segoe UI", sans-serif;
+  color: var(--text-primary);
+  background: radial-gradient(circle at 30% 18%, #382f22 0%, var(--bg-top) 40%, var(--bg-bottom) 100%);
+}
+
+.app-shell {
+  max-width: 460px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.brand-bar {
+  background: linear-gradient(120deg, rgba(209, 151, 59, 0.15), rgba(0, 0, 0, 0));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 16px 16px 14px;
+  box-shadow: var(--shadow);
+}
+
+.brand-bar.compact {
+  padding-bottom: 10px;
+}
+
+.brand-eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.brand-title {
+  margin: 6px 0 2px;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+}
+
+.brand-subtitle {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.tap-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tap-list-card {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.tap-list-card:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.tap-list-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 110px;
+  object-fit: cover;
+  background: #2f2a21;
+}
+
+.tap-list-content {
+  padding: 10px 10px 10px 0;
+  display: grid;
+  gap: 6px;
+  align-content: center;
+}
+
+.tap-list-name {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+.tap-list-style {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+}
+
+.tap-list-metrics {
+  margin: 0;
+  font-weight: 600;
+  color: var(--accent-strong);
+  font-size: 0.9rem;
+}
+
+.tap-shell {
+  justify-content: flex-start;
+}
+
+.tap-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: var(--shadow);
+  animation: card-enter 420ms ease-out both;
+}
+
+.tap-hero {
+  margin: 0;
+  aspect-ratio: 3 / 4;
+  background: linear-gradient(180deg, rgba(209, 151, 59, 0.25), rgba(0, 0, 0, 0));
+}
+
+.tap-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tap-info {
+  padding: 18px;
+}
+
+.tap-name {
+  margin: 0;
+  font-size: clamp(1.6rem, 4.8vw, 2.2rem);
+  line-height: 1.08;
+}
+
+.tap-style {
+  margin: 8px 0 0;
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.02em;
+}
+
+.tap-metrics {
+  margin: 12px 0 0;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 650;
+  color: var(--accent-strong);
+}
+
+.metric-dot {
+  width: 7px;
+  height: 7px;
+  background: var(--accent);
+  border-radius: 99px;
+}
+
+.tap-description {
+  margin: 14px 0 0;
+  color: var(--text-primary);
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.tap-status {
+  margin: 15px 0 0;
+  display: inline-block;
+  font-size: 0.88rem;
+  border-radius: 999px;
+  background: rgba(137, 212, 100, 0.16);
+  border: 1px solid rgba(137, 212, 100, 0.5);
+  color: #b6ef9f;
+  padding: 6px 10px;
+}
+
+.state-message {
+  border-radius: 14px;
+  border: 1px solid rgba(240, 139, 117, 0.55);
+  background: rgba(240, 139, 117, 0.12);
+  color: #ffd6ce;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@keyframes card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .app-shell {
+    max-width: 560px;
+    padding: 20px;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .tap-list-card {
+    grid-template-columns: 1fr;
+  }
+
+  .tap-list-card img {
+    min-height: 180px;
+    max-height: 220px;
+  }
+
+  .tap-list-content {
+    padding: 12px;
+  }
+}

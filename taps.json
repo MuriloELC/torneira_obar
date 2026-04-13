@@ -1,0 +1,33 @@
+{
+  "taps": [
+    {
+      "id": 1,
+      "name": "Session IPA",
+      "style": "IPA",
+      "abv": "4.8%",
+      "ibu": 35,
+      "description": "Leve, citrica e refrescante.",
+      "image": "assets/images/session-ipa.jpg",
+      "status": "Disponivel"
+    },
+    {
+      "id": 2,
+      "name": "Stout da Casa",
+      "style": "Stout",
+      "abv": "6.2%",
+      "ibu": 40,
+      "description": "Escura, cremosa, com notas de cafe e chocolate.",
+      "image": "assets/images/stout.jpg",
+      "status": "Disponivel"
+    },
+    {
+      "id": 3,
+      "name": "Pilsen Clara",
+      "style": "Pilsen",
+      "abv": "4.4%",
+      "ibu": 18,
+      "description": "Maltada, equilibrada e facil de beber.",
+      "image": "assets/images/pilsen.jpg"
+    }
+  ]
+}

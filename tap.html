@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tap Display | Torneira</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="page-tap">
+    <main class="app-shell tap-shell" id="tap-screen">
+      <header class="brand-bar compact">
+        <p class="brand-eyebrow">Casa Torneira</p>
+        <p class="brand-subtitle">Selecao atual</p>
+      </header>
+
+      <article class="tap-card hidden" id="tap-content" aria-live="polite">
+        <figure class="tap-hero">
+          <img id="tap-image" src="assets/images/placeholder.jpg" alt="Cerveja" loading="eager" />
+        </figure>
+
+        <div class="tap-info">
+          <h1 class="tap-name" id="tap-name">Carregando...</h1>
+          <p class="tap-style" id="tap-style"></p>
+
+          <p class="tap-metrics">
+            <span id="tap-abv"></span>
+            <span class="metric-dot" aria-hidden="true"></span>
+            <span id="tap-ibu"></span>
+          </p>
+
+          <p class="tap-description" id="tap-description"></p>
+          <p class="tap-status hidden" id="tap-status"></p>
+        </div>
+      </article>
+
+      <section class="state-message hidden" id="tap-state" role="alert"></section>
+    </main>
+
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>
