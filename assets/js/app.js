@@ -106,10 +106,6 @@
     name.className = "tap-list-name";
     name.textContent = tap.name;
 
-    const style = document.createElement("p");
-    style.className = "tap-list-style";
-    style.textContent = tap.style;
-
     const metrics = document.createElement("p");
     metrics.className = "tap-list-metrics";
     metrics.textContent = "ABV " + tap.abv + " | IBU " + tap.ibu;
