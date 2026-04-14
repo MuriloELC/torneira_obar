@@ -70,17 +70,9 @@
       document.getElementById("tap-ibu").textContent = "IBU " + tap.ibu;
       document.getElementById("tap-description").textContent = tap.description;
 
-      const statusElement = document.getElementById("tap-status");
-      if (tap.status) {
-        statusElement.textContent = tap.status;
-        statusElement.classList.remove("hidden");
-      } else {
-        statusElement.classList.add("hidden");
-      }
-
       setImageWithFallback(document.getElementById("tap-image"), tap.image, tap.name);
 
-      document.title = "Tap Display | " + tap.name;
+      document.title = "Torneira | " + tap.name;
       tapContent.classList.remove("hidden");
       stateBox.classList.add("hidden");
     } catch (error) {
