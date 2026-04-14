@@ -3,31 +3,58 @@
     {
       "id": 1,
       "name": "Session IPA",
-      "style": "IPA",
       "abv": "4.8%",
       "ibu": 35,
       "description": "Leve, citrica e refrescante.",
-      "image": "assets/images/session-ipa.jpg",
-      "status": "Disponivel"
+      "image": "assets/images/session-ipa.jpg"
     },
     {
       "id": 2,
-      "name": "Stout da Casa",
-      "style": "Stout",
-      "abv": "6.2%",
+      "name": "Stout",
+      "abv": "6.8%",
       "ibu": 40,
       "description": "Escura, cremosa, com notas de cafe e chocolate.",
-      "image": "assets/images/stout.jpg",
-      "status": "Disponivel"
+      "image": "assets/images/stout.jpg"
     },
     {
       "id": 3,
-      "name": "Pilsen Clara",
-      "style": "Pilsen",
+      "name": "Pilsen",
       "abv": "4.4%",
       "ibu": 18,
       "description": "Maltada, equilibrada e facil de beber.",
       "image": "assets/images/pilsen.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hop Lager",
+      "abv": "5.2%",
+      "ibu": 25,
+      "description": "Leve, com notas de laranja e limao.",
+      "image": "assets/images/hop-lager.jpg"
+    },
+    {
+      "id": 5,
+      "name": "American Pale Ale",
+      "abv": "5.5%",
+      "ibu": 30,
+      "description": "Equilibrada, com notas de frutas tropicais e caramelo.",
+      "image": "assets/images/american-pale-ale.jpg"
+    },
+    {
+      "id": 6,
+      "name": "IPA",
+      "abv": "6.5%",
+      "ibu": 60,
+      "description": "Intensa, com amargor pronunciado e notas de frutas cítricas.",
+      "image": "assets/images/ipa.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Vinho",
+      "abv": "4,5%",
+      "ibu": 0,
+      "description": "Leve e refrescante para adoçar o dia.",
+      "image": "assets/images/vinho.jpg"
     }
   ]
 }
