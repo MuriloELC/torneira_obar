@@ -23,12 +23,10 @@
     return {
       id: Number(tap.id),
       name: tap.name || "Sem nome",
-      style: tap.style || "Estilo nao informado",
       abv: tap.abv || "--",
       ibu: tap.ibu != null ? tap.ibu : "--",
       description: tap.description || "Sem descricao.",
       image: tap.image || PLACEHOLDER_IMAGE,
-      status: tap.status || "",
     };
   }
 
@@ -68,7 +66,6 @@
       }
 
       document.getElementById("tap-name").textContent = tap.name;
-      document.getElementById("tap-style").textContent = tap.style;
       document.getElementById("tap-abv").textContent = "ABV " + tap.abv;
       document.getElementById("tap-ibu").textContent = "IBU " + tap.ibu;
       document.getElementById("tap-description").textContent = tap.description;
@@ -111,7 +108,6 @@
     metrics.textContent = "ABV " + tap.abv + " | IBU " + tap.ibu;
 
     content.appendChild(name);
-    content.appendChild(style);
     content.appendChild(metrics);
     card.appendChild(image);
     card.appendChild(content);
