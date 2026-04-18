@@ -57,14 +57,6 @@
       "image": "assets/images/vinho.jpg"
     },
     {
-      "id": 8,
-      "name": "Session IPA",
-      "abv": "4.8%",
-      "ibu": 35,
-      "description": "Leve, citrica e refrescante.",
-      "image": "assets/images/session-ipa.jpg"
-    },
-    {
       "id": 9,
       "name": "IPA Rapadura",
       "abv": "6.5%",
