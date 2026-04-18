@@ -63,6 +63,14 @@
       "ibu": 60,
       "description": "Intensa, com amargor pronunciado e notas de frutas cítricas.",
       "image": "assets/images/ipa-rapadura.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Summer Ale",
+      "abv": "5.0%",
+      "ibu": 20,
+      "description": "Leve, refrescante e com notas de frutas cítricas.",
+      "image": "assets/images/summer-ale.jpg"
     }
   ]
 }
