@@ -55,6 +55,22 @@
       "ibu": 0,
       "description": "Leve e refrescante para adoçar o dia.",
       "image": "assets/images/vinho.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Session IPA",
+      "abv": "4.8%",
+      "ibu": 35,
+      "description": "Leve, citrica e refrescante.",
+      "image": "assets/images/session-ipa.jpg"
+    },
+    {
+      "id": 9,
+      "name": "IPA Rapadura",
+      "abv": "6.5%",
+      "ibu": 60,
+      "description": "Intensa, com amargor pronunciado e notas de frutas cítricas.",
+      "image": "assets/images/ipa-rapadura.jpg"
     }
   ]
 }
