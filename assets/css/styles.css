@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Long Shot";
+  src: url("../fonts/Long_Shot.ttf") format("truetype");
+  font-display: swap;
+}
+
 :root {
   --bg-top: #12100d;
   --bg-bottom: #242018;
@@ -26,7 +32,7 @@ body {
 }
 
 body {
-  font-family: "Bahnschrift", "Trebuchet MS", "Segoe UI", sans-serif;
+  font-family: "Long Shot", "Bahnschrift", "Trebuchet MS", "Segoe UI", sans-serif;
   color: var(--text-primary);
   background: radial-gradient(circle at 30% 18%, #382f22 0%, var(--bg-top) 40%, var(--bg-bottom) 100%);
 }
