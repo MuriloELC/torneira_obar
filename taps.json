@@ -6,7 +6,7 @@
       "abv": "4.8%",
       "ibu": 35,
       "description": "Leve, citrica e refrescante.",
-      "image": "assets/images/session-ipa.jpg"
+      "image": "assets/images/session-ipa.png"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "abv": "6.8%",
       "ibu": 40,
       "description": "Escura, cremosa, com notas de cafe e chocolate.",
-      "image": "assets/images/stout.jpg"
+      "image": "assets/images/stout.png"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "abv": "4.4%",
       "ibu": 18,
       "description": "Maltada, equilibrada e facil de beber.",
-      "image": "assets/images/pilsen.jpg"
+      "image": "assets/images/pilsen.png"
     },
     {
       "id": 4,
@@ -30,15 +30,15 @@
       "abv": "5.2%",
       "ibu": 25,
       "description": "Leve, com notas de laranja e limao.",
-      "image": "assets/images/hop-lager.jpg"
+      "image": "assets/images/hop-lager.png"
     },
     {
       "id": 5,
-      "name": "American Pale Ale",
+      "name": "APA",
       "abv": "5.5%",
       "ibu": 30,
       "description": "Equilibrada, com notas de frutas tropicais e caramelo.",
-      "image": "assets/images/apa.jpg"
+      "image": "assets/images/apa.png"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "abv": "6.5%",
       "ibu": 60,
       "description": "Intensa, com amargor pronunciado e notas de frutas cítricas.",
-      "image": "assets/images/ipa.jpg"
+      "image": "assets/images/ipa.png"
     },
     {
       "id": 7,
@@ -54,23 +54,23 @@
       "abv": "4,5%",
       "ibu": 0,
       "description": "Leve e refrescante para adoçar o dia.",
-      "image": "assets/images/vinho.jpg"
+      "image": "assets/images/vinho.png"
+    },
+    {
+      "id": 8,
+      "name": "Red ALE",
+      "abv": "5.5%",
+      "ibu": 25,
+      "description": "Leve, com notas de frutas vermelhas e especiarias.",
+      "image": "assets/images/red-ale.png"
     },
     {
       "id": 9,
-      "name": "IPA Rapadura",
-      "abv": "6.5%",
-      "ibu": 60,
-      "description": "Intensa, com amargor pronunciado e notas de frutas cítricas.",
-      "image": "assets/images/ipa-rapadura.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Summer Ale",
-      "abv": "5.0%",
-      "ibu": 20,
-      "description": "Leve, refrescante e com notas de frutas cítricas.",
-      "image": "assets/images/summer-ale.jpg"
+      "name": "h2op",
+      "abv": "0%",
+      "ibu": 0,
+      "description": "Refrescante, com notas de lúpulo e sem álcool.",
+      "image": "assets/images/h2op.png"
     }
   ]
 }
